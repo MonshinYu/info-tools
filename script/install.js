@@ -1,2 +1,3 @@
+const path = require('path');
 const { execSync } = require('child_process');
-execSync('../sh/install.sh');
+execSync(path.join(__dirname,'..','sh','install.sh'));
